@@ -32,6 +32,7 @@ int main() {
 
     char again = 'y';
 
+
     // Цикл для багаторазового використання калькулятора
     while (again == 'y' || again == 'Y') {
         calculator();
