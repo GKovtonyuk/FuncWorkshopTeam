@@ -1,14 +1,31 @@
 #include <iostream>
 using namespace std;
+
+int reverseNumber(int num) {
+    int rev = 0;
+
+    while (num != 0) {
+        rev = rev * 10 + num % 10;
+        num /= 10;
+    }
+    return rev; 
+}
+
 int main() {
-    int n, rev = 0, temp;
+    int n;
     cout << "Введіть число: ";
     cin >> n;
-    temp = n;
-    while (temp != 0) {
-        rev = rev * 10 + temp % 10;
-        temp /= 10;
+
+    // функція обчислення
+    int reversed_n = reverseNumber(n);
+
+    if (reversed_n == n) {
+        cout << "Паліндром";
     }
-    if (rev == n) cout << "Паліндром";
-    else cout << "Не паліндром";
+    else {
+        cout << "Не паліндром";
+    }
+
+    cout << endl;
+    return 0;
 }
