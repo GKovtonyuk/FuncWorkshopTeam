@@ -1,13 +1,23 @@
 #include <iostream>
+#include <windows.h>
 using namespace std;
-int main() {
-    int arr[5];
-    cout << "Введіть 5 чисел: ";
-    for (int i = 0; i < 5; i++) cin >> arr[i];
+
+void findMinMax(int arr[], int size) {
     int minVal = arr[0], maxVal = arr[0];
-    for (int i = 1; i < 5; i++) {
+    for (int i = 1; i < size; i++) {
         if (arr[i] < minVal) minVal = arr[i];
         if (arr[i] > maxVal) maxVal = arr[i];
     }
     cout << "Мінімум: " << minVal << ", Максимум: " << maxVal;
+}
+
+int main() {
+    const int SIZE = 5;
+    int arr[SIZE];
+    cout << "Введіть " << SIZE << " чисел: ";
+    for (int i = 0; i < SIZE; i++) cin >> arr[i];
+
+    findMinMax(arr, SIZE);
+
+    return 0;
 }
