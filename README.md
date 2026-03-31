@@ -99,3 +99,100 @@
 ## 💡 Мотиваційна порада
 
 > “Ваша мета — не просто зробити код, який працює, а щоб будь-хто зміг швидко зрозуміти, як він працює. Чітко структурований код, хороша блок-схема та грамотна презентація — це ознака справжнього програміста.”
+
+# 📌 Instructions for Team Project Presentation: "Functions in C++"
+
+## 🕹️ Project Background
+
+Imagine that your team consists of young software engineers who received a task from a large company **“CodeLab Inc.”**:
+
+> “Develop small utilities for processing numbers, arrays, and structures. All programs must use functions so that the code is clean, understandable, and scalable.”
+
+Each team receives its own story and a set of tasks (10 different tasks to choose from), for example:
+
+- **CodeMasters** — calculating sums and averages of numbers  
+- **LoopLegends** — factorials and loops  
+- **StructSquad** — working with student records in a structure
+
+**Goal:** Learn how to create functions, divide code into logical blocks, and collaborate as a team using GitHub.
+
+## 🧩 Team Roles (2 members)
+
+| Role                              | Main Responsibilities                                             | During Presentation                                      |
+| --------------------------------- | ---------------------------------------------------------------- | -------------------------------------------------------- |
+| 🧠 Developer                       | Writes the main code, creates functions, tests program logic     | Explains the logic of functions, demonstrates code run  |
+| 📣 Presenter (Analyst / Reviewer)  | Prepares README, flowchart, makes commits and pull requests on GitHub | Explains the algorithm, shows the flowchart, and team interaction |
+
+> 🔁 Roles can be swapped for the next task.
+
+## ⚙️ Working via GitHub
+
+### 1️⃣ Fork and Clone
+
+1. Open the instructor’s repository on GitHub  
+2. Click **Fork** to create a copy in your account  
+3. Clone the repository to your computer using GitHub Desktop:
+
+   - `File → Clone Repository → URL or GitHub`  
+   - Select the folder for cloning
+
+### 2️⃣ Create a Team Branch
+
+1. In GitHub Desktop, click **Current Branch → New Branch**  
+2. Branch name: `teamX-yourname`  
+
+   - `X` — team number  
+   - `yourname` — your name (or two names separated by `_` for two students)  
+
+3. Make sure you are on the new branch before editing files
+
+### 3️⃣ Working on the Task
+
+- **Developer:** writes code in `main.cpp` using functions  
+- **Presenter:** updates `README.md`, adds the flowchart `diagram.png`  
+- Commit changes after each logical step  
+- After finishing — **Push** to your branch
+
+### 4️⃣ Pull Request
+
+1. Open GitHub → your fork → tab **Pull Requests → New Pull Request**  
+2. Select your branch and submit a PR to the main repository  
+3. Write a short description:  
+
+   - Team task  
+   - Main functions  
+   - Results
+
+## 🧾 Team Presentation (5–7 min)
+
+1. **Introduction (1 min)**
+
+   - Introduce the team  
+   - Name the task and program topic
+
+2. **Algorithm and Flowchart (2 min)**
+
+   - Presenter shows `diagram.png`  
+   - Explains the program logic
+
+3. **Code Explanation and Run (3 min)**
+
+   - Developer demonstrates the code with functions  
+   - Explains each function and results
+
+4. **Conclusions (1 min)**
+
+   - What you learned about functions  
+   - Challenges faced  
+   - How the team collaborated and used GitHub
+
+## 📊 Evaluation Criteria
+
+| Criterion                                           | Points |
+| -------------------------------------------------- | ------ |
+| Program works; functions implemented correctly    | 3      |
+| Algorithm and flowchart are correct               | 2      |
+| Use of GitHub (branches, commits, pull request)  | 2      |
+| Teamwork and role distribution                    | 2      |
+| Presentation and explanation of material         | 1      |
+| **Total**                                         | 10     |
