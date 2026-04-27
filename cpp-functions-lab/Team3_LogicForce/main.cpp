@@ -2,13 +2,14 @@
 #include <windows.h>
 using namespace std;
 
-// Функція, що перевіряє, чи є число простим
+// Function that checks whether a number is prime
+
 bool isPrime(int n) {
     if (n <= 1) return false; // 0, 1 і від’ємні не є простими
 
     for (int i = 2; i * i <= n; i++) {
         if (n % i == 0)
-            return false; // знайдено дільник — не просте
+            return false; // a divisor was found — not a prime number
     }
     return true; // дільників не знайдено — число просте
 }
