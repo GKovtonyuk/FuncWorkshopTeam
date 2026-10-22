@@ -180,6 +180,8 @@ generate_question()
 root.mainloop()
 
 ```
+<img width="1920" height="878" alt="image" src="https://github.com/user-attachments/assets/2fc95319-013e-4d24-976c-19e37a7b7e1a" />
+
 ### 4️⃣ Pull Request
 
 1. Відкрийте GitHub → ваш форк → вкладка **Pull Requests → New Pull Request**
